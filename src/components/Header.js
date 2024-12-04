@@ -1,5 +1,5 @@
 import React from 'react';
-import whiteLogo from '../assets/grey.png'; 
+import whiteLogo from '../assets/white.PNG'; 
 
 function Header() {
     const logoStyle = {
