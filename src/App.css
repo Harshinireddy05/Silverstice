@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #3D52A0;
-  --secondary-color: #7091E6;
-  --tertiary-color: #8697C4;
+  --primary-color: black;
+  --secondary-color: #1f222a;
+  --tertiary-color: #0a0a0b;
   --light-color: #ADBBDA;
   --lightest-color: #EDE8F5;
 }
@@ -332,7 +332,7 @@ p {
 .blue-underline {
   width: 60px;
   height: 3px;
-  background-color: #3D52A0;
+  background-color: #141515;
   margin-bottom: 30px;
 }
 
@@ -363,7 +363,7 @@ p {
 }
 
 .benefit-item i {
-  color: #3D52A0;
+  color: #12141c;
 }
 
 .benefit-item span {
@@ -405,7 +405,7 @@ p {
 }
 
 .service-card {
-  background: linear-gradient(to right, #3D52A0, #7091E6);
+  background: linear-gradient(to right, #0e0f10, #26272b);
   color: white;
   padding: 30px 20px;
   border-radius: 10px;
@@ -478,7 +478,7 @@ p {
 .company-tag {
   display: inline-block;
   background-color: #EDE8F5;
-  color: #3D52A0;
+  color: #1d1e21;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -548,7 +548,7 @@ p {
 
 .value-icon {
   font-size: 2.5rem;
-  color: #3D52A0;
+  color: #28292f;
   margin-bottom: 20px;
 }
 
@@ -559,7 +559,7 @@ p {
 }
 
 .value-card p {
-  color: #666;
+  color: #313131;
   line-height: 1.6;
 }
 

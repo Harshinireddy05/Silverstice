@@ -20,7 +20,7 @@ function Home() {
           Your browser does not support the video tag.
         </video>
         <div className="hero-content">
-          <h1>Predicting Sustainable Fashion with Advanced Stoichiometry</h1>
+          <h1>Predicting Sustainable Fashion with Advanced Technology</h1>
           <h2>Redefining fashion by making every garment smarter, more sustainable, and eco-friendly.</h2>
         </div>
       </section>
