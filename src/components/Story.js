@@ -1,6 +1,7 @@
 import React from 'react';
 import officeImage from '../assets/Team.jpg'; 
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons';
 function Story() {
   return (
     <section className="our-story-section">
@@ -34,29 +35,29 @@ function Story() {
           <div className="benefits-grid">
             <div className="benefit-column">
               <div className="benefit-item">
-                <i className="fas fa-check"></i>
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Personalized Shopping Experience</span>
               </div>
               <div className="benefit-item">
-                <i className="fas fa-check"></i>
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Cutting-edge AI Technology</span>
               </div>
               <div className="benefit-item">
-                <i className="fas fa-check"></i>
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Reduced Return Rates</span>
               </div>
             </div>
             <div className="benefit-column">
               <div className="benefit-item">
-                <i className="fas fa-check"></i>
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Enhanced Customer Satisfaction</span>
               </div>
               <div className="benefit-item">
-                <i className="fas fa-check"></i>
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Sustainable Shopping Solutions</span>
               </div>
               <div className="benefit-item">
-                <i className="fas fa-check"></i>
+                <FontAwesomeIcon icon={faCheck} />
                 <span>Innovative Try-on Experience</span>
               </div>
             </div>

@@ -49,6 +49,9 @@
 // export default Footer;
 
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 function Footer() {
   return (
@@ -81,16 +84,16 @@ function Footer() {
           <h3>Follow us On</h3>
           <div className="social-links">
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin"></i>
+              <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-instagram"></i>
+              <FontAwesomeIcon icon={faInstagram} />
             </a>
           </div>
         </div>
       </div>
       <div className="footer-bottom">
-        <p style={{ color: 'white' }}>© 2024 Fit.melabs. All Rights Reserved</p>
+        <p style={{ color: 'white' }}>© 2024 Fit.me Labs. All Rights Reserved</p>
       </div>
     </footer>
   );
