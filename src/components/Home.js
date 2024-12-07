@@ -29,7 +29,7 @@ function Home() {
 
       <section className="services-section">
         <div className="services-container">
-          <p style={{fontSize: "1.8rem", color: "dark-grey"}}><h1>OUR SERVICES</h1></p>
+          <p style={{fontSize: "1.8rem", color: "white"}}><h1>OUR SERVICES</h1></p>
           <div className="services-grid">
             <div className="service-card">
               <div className="service-icon">

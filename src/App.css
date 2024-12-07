@@ -1,8 +1,15 @@
+@import 'tailwindcss/tailwind.css';
+
+/* Add a global font family using Tailwind's @apply directive */
+body {
+  @apply font-poppins; /* Use the font you imported */
+}
+
 :root {
   --primary-color: black;
   --secondary-color: #1f222a;
   --tertiary-color: #0a0a0b;
-  --light-color: #ADBBDA;
+  --light-color: #9c9d9e;
   --lightest-color: #EDE8F5;
 }
 
@@ -39,7 +46,7 @@ nav {
 }
 
 .logo {
-  color: white;
+  color: black;
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -68,6 +75,7 @@ nav {
   overflow: hidden;
   margin-top: 0;
   padding: 0;
+  @apply animate-fade-in;
 }
 
 .background-video {
@@ -89,9 +97,9 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: white;
+  color: black;
   padding: 2rem;
-  background-color: rgba(61, 82, 160, 0.3);
+  background-color: rgba(212, 211, 211, 0.3);
   width: 100%;
 }
 
@@ -113,11 +121,12 @@ nav {
   padding: 1rem 2rem;
   font-size: 1.2rem;
   background-color: var(--secondary-color);
-  color: white;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  @apply transition duration-300 ease-in-out transform hover:scale-105;
 }
 
 .cta-button:hover {
@@ -148,10 +157,10 @@ nav {
 }
 
 .service-card, .team-member {
-  background: #f5f5f5;
+  background: black;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.966);
 }
 
 h2 {
@@ -203,7 +212,7 @@ p {
 
 .stat-item {
   padding: 20px;
-  background-color: white;
+  background-color: black;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -299,7 +308,7 @@ p {
 
 .our-story-section {
   padding: 80px 0;
-  background: white;
+  background: black;
 }
 
 .our-story-container {
@@ -325,19 +334,19 @@ p {
 
 .our-story-content h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
 .blue-underline {
   width: 60px;
   height: 3px;
-  background-color: #141515;
+  background-color: #ffffff;
   margin-bottom: 30px;
 }
 
 .story-text {
-  color: #666;
+  color: #fffdfd;
   line-height: 1.8;
   margin-bottom: 20px;
   font-size: 1.1rem;
@@ -345,7 +354,7 @@ p {
 
 .our-story-content h3 {
   font-size: 1.8rem;
-  color: #333;
+  color: #ffffff;
   margin: 40px 0 20px;
 }
 
@@ -363,11 +372,11 @@ p {
 }
 
 .benefit-item i {
-  color: #12141c;
+  color: #ffffff;
 }
 
 .benefit-item span {
-  color: #666;
+  color: #ffffff;
 }
 
 @media (max-width: 768px) {
@@ -381,19 +390,19 @@ p {
 }
 
 .services-section {
-  padding: 80px 0;
-  background-color: #f8f9fa;
+  padding: 90px 0;
+  background-color: black;
 }
 
 .services-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 .services-container h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -405,8 +414,8 @@ p {
 }
 
 .service-card {
-  background: linear-gradient(to right, #0e0f10, #26272b);
-  color: white;
+  background: white;
+  color: black;
   padding: 30px 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -423,13 +432,13 @@ p {
 }
 
 .service-card h3 {
-  color: white;
+  color: black;
   font-size: 1.5rem;
   margin-bottom: 15px;
 }
 
 .service-card p {
-  color: #EDE8F5;
+  color: black;
   line-height: 1.6;
 }
 
@@ -445,7 +454,7 @@ p {
 
 .about-page {
   padding: 80px 20px;
-  background-color: #f8f9fa;
+  background-color: black;
   min-height: 100vh;
 }
 
@@ -477,8 +486,8 @@ p {
 
 .company-tag {
   display: inline-block;
-  background-color: #EDE8F5;
-  color: #1d1e21;
+  background-color: #ffffff;
+  color: black;
   padding: 8px 16px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -487,13 +496,13 @@ p {
 
 .about-content h1 {
   font-size: 2.8rem;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 30px;
   line-height: 1.2;
 }
 
 .about-content p {
-  color: #666;
+  color: #ffffff;
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -516,13 +525,13 @@ p {
 
 .core-values-section {
   padding: 80px 100px;
-  background-color: #fff;
+  background-color: black;
   text-align: center;
 }
 
 .core-values-section h2 {
   font-size: 2.5rem;
-  color: #333;
+  color: #ffffff;
   margin-bottom: 50px;
 }
 
@@ -535,7 +544,7 @@ p {
 }
 
 .value-card {
-  background: white;
+  background: rgb(239, 238, 238);
   padding: 30px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -566,5 +575,14 @@ p {
 @media (max-width: 768px) {
   .values-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
